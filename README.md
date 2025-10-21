@@ -154,32 +154,3 @@ cd frontend
 npm install
 ```
 
-## 🤝 Contribuir al Proyecto
-
-Este proyecto está en desarrollo activo. Para contribuir:
-
-1. Fork del repositorio
-2. Crear una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit de cambios (`git commit -m 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crear un Pull Request
-
-## 📞 Contacto y Soporte
-
-- 📧 **Email**: [tu-email@ejemplo.com]
-- 🐛 **Issues**: [GitHub Issues](https://github.com/ElChel4s/Sistema-de-Gestion-de-Inventarios/issues)
-- 📖 **Documentación**: En desarrollo...
-
-## 📝 Notas de Desarrollo
-
-- El sistema utiliza JWT para autenticación
-- Las rutas están protegidas por roles de usuario
-- Se implementa paginación en las consultas grandes
-- El código sigue estándares de Clean Code
-- Se busca mantener alta cobertura de tests
-
----
-
-**⚠️ Nota**: Este sistema está en desarrollo activo. Algunas funcionalidades pueden no estar completamente implementadas o pueden cambiar en futuras versiones.
-
-**🎯 Objetivo**: Crear un sistema robusto, escalable y fácil de mantener para la gestión integral de inventarios empresariales.
