@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres-container
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: udev
+      POSTGRES_DB: ventasqr
+    networks:
+      - app-network
+    ports:
+      - "5432:5432"
+
+  proyventasqr:
+    image: proyventasqr:latest
+    container_name: proyventasqr-container-new
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+    depends_on:
+      - postgres
+    
+networks:
+  app-network:
+    driver: bridge
